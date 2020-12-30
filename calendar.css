@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, p, th {
+    text-align: center;
+}
+h1 {
+    padding: 15px 0;
+    font-size: 40pt;
+    font-weight: 100;
+    font-family: 'Century Gothic';
+    color: white;
+    background-color: lightseagreen;
+}
+
+h2 {
+    font-size: 55pt;
+    color: limegreen;
+}
+
+p {
+    font-size: 13pt;
+}
+
+table {
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid gray;
+    font-weight: 100;
+}
+
+th {
+    font-size: medium;
+}
+
+td {
+    padding: 18px 90px 18px 0px;
+    font-size: larger;
+}
+
+.sun {
+    color: red;
+}
+
+.sat {
+    color: blue;
+}
+
+#footer {
+    margin-top: 20px;
+    font-size: 11pt;
+}
