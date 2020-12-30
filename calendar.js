@@ -5,11 +5,11 @@ var weekName = ["SUN 日", "MON 月", "TUE 火", "WED 水", "THU 木", "FRI 金"
 week += "<tr>";
 for(var i = 1; i <= 7; i++){
     switch(i % 7){
-        case 1:
-        week += '<th class="sun">' + weekName[i - 1] + '</th>';
-        break;
         case 0:
         week += '<th class="sat">' + weekName[i - 1] + '</th>';
+        break;
+        case 1:
+        week += '<th class="sun">' + weekName[i - 1] + '</th>';
         break;
         default:
         week += "<th>" + weekName[i - 1] + "</th>";
